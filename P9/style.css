@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263442;
+    background: #f5f7fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    background: #173b5e;
+}
+
+.logo, nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+}
+
+main {
+    max-width: 1050px;
+    margin: auto;
+    padding: 40px 22px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-card {
+    flex: 1 1 260px;
+    padding: 24px;
+    background: white;
+    border: 1px solid #e1e7ed;
+    border-radius: 9px;
+}
+
+footer {
+    padding: 28px 7%;
+    background: #e8eef3;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+}

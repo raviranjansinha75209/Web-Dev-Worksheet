@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263442;
+    background: #f5f7f9;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background: #173b5e;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 24px;
+}
+
+.hero {
+    min-height: 420px;
+    padding-top: 110px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 30px 0 100px;
+}
+
+.card {
+    position: relative;
+    flex: 1 1 280px;
+    overflow: hidden;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(20, 40, 60, 0.08);
+}
+
+.card-image {
+    display: grid;
+    place-items: center;
+    min-height: 170px;
+    background: #dce8f1;
+    color: #173b5e;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-image.second {
+    background: #e8e5dc;
+}
+
+.card-content {
+    padding: 18px;
+}
+
+.card-label {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background: #173b5e;
+    color: white;
+    font-size: 12px;
+}
+
+footer {
+    padding: 30px 0;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 16px;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    color: #263238;
+}
+
+.bio-card {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 32px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(20, 35, 50, 0.08);
+}
+
+.eyebrow {
+    color: #54708a;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+h1 {
+    margin-top: 8px;
+    color: #18324b;
+}
+
+h2 {
+    margin-top: 28px;
+    font-size: 19px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+footer {
+    margin-top: 28px;
+    padding-top: 12px;
+    border-top: 1px solid #e3e8ed;
+    color: #647482;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox and Grid Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <header>
+            <p class="eyebrow">CSS layout practice</p>
+            <h1>Flexbox or Grid?</h1>
+            <p>Both can arrange content. The best choice depends on the layout we need.</p>
+        </header>
+
+        <section>
+            <h2>Flexbox – one-dimensional layout</h2>
+            <p>Flexbox is useful when items are arranged mainly in one row or one column.</p>
+            <div class="flex-layout">
+                <div>Home</div>
+                <div>About</div>
+                <div>Projects</div>
+                <div>Contact</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Grid – two-dimensional layout</h2>
+            <p>Grid is useful when we need control over both rows and columns.</p>
+            <div class="grid-layout">
+                <div class="wide">Header / Main area</div>
+                <div>Sidebar</div>
+                <div>Content</div>
+                <div>Footer</div>
+            </div>
+        </section>
+
+        <section class="note">
+            <h2>Conclusion</h2>
+            <p>I would use Flexbox for a navigation bar and Grid for a page layout with rows and columns. Both can also work together in the same project.</p>
+        </section>
+    </main>
+</body>
+</html>
